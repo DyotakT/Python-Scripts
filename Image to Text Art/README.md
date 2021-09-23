@@ -25,11 +25,11 @@ For example, lets turn this image of Tomatoes into ASCII Art -
 ::cccxxx00xxxxxx0cc:       ..:::::::cccccccxc.....
 :::ccccxx0x0xxxxxcc:.       .:::::::::cccccc: ....
 :::::cccx0x00000xcc:.        .:::::::::::cc:  ....
-:::::cccx0xx0000xcc:.      .......:::::::::.@  ...
-::::::ccx0000000xcc:   .:cccxcc:.....::::. @@@  ..
-:::::::ccx00000xccc:  :cxxxxxxxc:.  ....  @@  ....
-:::::::::cccxxxcccc: :xxx0xxx00xxc.     @ .:cxxxxx
-::.:::::::ccccccccc..xxx00000000xxc.   @ :cxx00000
+:::::cccx0xx0000xcc:.      .......:::::::::.   ...
+::::::ccx0000000xcc:   .:cccxcc:.....::::.      ..
+:::::::ccx00000xccc:  :cxxxxxxxc:.  ....      ....
+:::::::::cccxxxcccc: :xxx0xxx00xxc.       .:cxxxxx
+::.:::::::ccccccccc..xxx00000000xxc.     :cxx00000
 ::.....:::::cccccc:.cxx0000000000xxc   .:cxx000000
 .::......:::::::::::ccxx000000000xxc.  :ccxx000@@0
 ...........:::::::.:ccxxxxx000000xxcc :cccxx000000
@@ -45,19 +45,19 @@ For example, lets turn this image of Tomatoes into ASCII Art -
   ccccxx000xx00xxc:.  ....::.:cxxxxc. .::::::ccccc
  .ccccxx00xxx000xcc:.    .::ccxx00xxxc::::::::::cc
  :cccccxxxxxx000xcc::   .cxxxx00000xxxc..:::::::::
- :::ccccccccxxxxxccc:.@.cxxx00000000xxxc...:::::::
+ :::ccccccccxxxxxccc:. .cxxx00000000xxxc...:::::::
 .c:::::::ccccccccccc:. cxxx00000@0@0xxxc. ........
 .::::::::::::ccccccc:::cxxx0000000@00xxxc  .......
-.::::::::::::::::::::::cxxxx0000000@0xxxc.@   ....
-.::::::::::::::::::::::cxxxx000000000xxxx:  @@
-.::::::::::::::::::::.:cxxxxx00000000xxxxc @   @@@
- ....:::::::::::::::..:ccxxxxxxxxxxxxxxxxc @
-  .....::::::::::::.. :ccccxxxxxxxxxxxxxxc @
+.::::::::::::::::::::::cxxxx0000000@0xxxc.    ....
+.::::::::::::::::::::::cxxxx000000000xxxx:
+.::::::::::::::::::::.:cxxxxx00000000xxxxc
+ ....:::::::::::::::..:ccxxxxxxxxxxxxxxxxc
+  .....::::::::::::.. :ccccxxxxxxxxxxxxxxc
   ......:::::::::...  :cccccxxxxxxxxxxxxxc
    ................   .:ccccccccccccccccc:
-    ..............   @ ::cccccccccccccccc:
+    ..............     ::cccccccccccccccc:
      ...........       .:::ccccccccccccc:        .
-       ........       @ .:::::::::::::::.       ..
+       ........         .:::::::::::::::.       ..
 .                       ..:::::::::::::.       ...
 ```
 
