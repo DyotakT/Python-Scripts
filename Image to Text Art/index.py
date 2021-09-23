@@ -24,7 +24,7 @@ count = 0 # Used to traverse the pix_val_grey array
 for x in range(height):
     for y in range(width):
         pex[x][y]=pix_val_grey[count] # Traversing pix_val_grey and copying value into the array
-        pex[x][y] = elements[math.ceil((pex[x][y]/255)*definition)-1] # Picking the element at index of the normalized value
+        pex[x][y] = elements[math.floor((pex[x][y]/255)*definition)] # Picking the element at index of the normalized value
         count=count+1
 
 for x in range(height):
