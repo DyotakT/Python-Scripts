@@ -3,11 +3,9 @@ import sys, math
 
 img = Image.open(r"image.png") # Image to be used path
 elements = " .:cx0@" # Elements to be used; from least dense to most dense
-darkBackground = sys.argv[1] # Get if the background is dark or light from first command line argument
-charLength = sys.argv[2] # Get the characters length of art from second command line argument
-charLength = int(charLength)
+charLength = int(sys.argv[2]) # Get the characters length of art from second command line argument
 
-if(int(darkBackground)==0):
+if(int(sys.argv[1])==0): # Get if the background is dark or light from first command line argument
     elements = elements[::-1] # Reverse the elements string if background is light
 
 smolimg = img.resize((charLength,charLength)) # Resizing image to make it small
@@ -23,9 +21,6 @@ definition = len(elements) # Get the number of elements being used for future st
 count = 0 # Used to traverse the pix_val_grey array 
 for x in range(height):
     for y in range(width):
-        pex[x][y]=pix_val_grey[count] # Traversing pix_val_grey and copying value into the array
-        pex[x][y] = elements[math.floor((pex[x][y]/255)*definition)] # Picking the element at index of the normalized value
-        count=count+1
-
-for x in range(height):
+        pex[x][y] = elements[math.floor((pix_val_grey[count]/255)*definition)] # Picking the element at index of the normalized value
+        count += 1
     print(*pex[x], sep="") # Printing the art into terminal
